@@ -1,17 +1,26 @@
+// sass --watch style.sass:style.css
+
+$brown1: #2A1303
+$brown2: #452611
+$brown3: #6B4F3B
+$brown4: #A17B61
+
 body
     font-family: 'Cabin', sans-serif
 
 nav
-    background: #8B6D54
+    background: $brown1
+    color: white
     font-size: 1.5em
     left: 0
     padding: 0.5em
     position: fixed
     right: 0
     top: 0
-
-nav ul li
-    display: inline
+    ul li
+        cursor: pointer
+        display: inline
+        margin-left: 1em
 
 section
     padding: 2em
@@ -22,10 +31,9 @@ h1
 h2
     font-size: 1.5em
 
-
 img
+    margin-right: 1em
     max-height: 400px
-
 
 .clear:after
     content: "."
@@ -34,29 +42,24 @@ img
     clear: both
     visibility: hidden
 
-
 #home
-    background: #5F452F
+    background: $brown3
 
 #home img
     float: left
 
 #about
-    background: #8B6D54
+    background: $brown2
 
 #projects
-    background: #5F452F
-
-#projects article
-    margin-top: 1em
-
-#projects img
-    float: left
-
+    background: $brown3
+    article
+        margin-top: 1em
+    img
+        float: left
 
 #order
-    background: #361F0C
-
+    background: $brown4
 
 #contact
-    background: #8B6D54
+    background: $brown1

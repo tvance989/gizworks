@@ -2,16 +2,18 @@ body {
   font-family: "Cabin", sans-serif; }
 
 nav {
-  background: #8B6D54;
+  background: #2A1303;
+  color: white;
   font-size: 1.5em;
   left: 0;
   padding: 0.5em;
   position: fixed;
   right: 0;
   top: 0; }
-
-nav ul li {
-  display: inline; }
+  nav ul li {
+    cursor: pointer;
+    display: inline;
+    margin-left: 1em; }
 
 section {
   padding: 2em; }
@@ -23,6 +25,7 @@ h2 {
   font-size: 1.5em; }
 
 img {
+  margin-right: 1em;
   max-height: 400px; }
 
 .clear:after {
@@ -33,27 +36,25 @@ img {
   visibility: hidden; }
 
 #home {
-  background: #5F452F; }
+  background: #6B4F3B; }
 
 #home img {
   float: left; }
 
 #about {
-  background: #8B6D54; }
+  background: #452611; }
 
 #projects {
-  background: #5F452F; }
-
-#projects article {
-  margin-top: 1em; }
-
-#projects img {
-  float: left; }
+  background: #6B4F3B; }
+  #projects article {
+    margin-top: 1em; }
+  #projects img {
+    float: left; }
 
 #order {
-  background: #361F0C; }
+  background: #A17B61; }
 
 #contact {
-  background: #8B6D54; }
+  background: #2A1303; }
 
 /*# sourceMappingURL=style.css.map */
