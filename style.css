@@ -17,19 +17,23 @@ nav {
     margin-left: 1em; }
 
 section {
-  padding: 2em; }
+  padding: 3em; }
 
 h1 {
   font-size: 3em;
   margin-bottom: 0.5em; }
 
+img {
+  float: left;
+  margin-right: 3em;
+  max-height: 600px; }
+
 p {
   font-size: 1.5em;
   margin-bottom: 0.5em; }
 
-img {
-  margin-right: 1em;
-  max-height: 600px; }
+i {
+  font-style: italic; }
 
 .clear:after {
   content: ".";
@@ -40,24 +44,19 @@ img {
 
 #home {
   background: #6B4F3B; }
-  #home h1 {
-    display: inline-block;
-    font-size: 3em;
-    margin-bottom: 0.5em;
-    vertical-align: top; }
 
 #about {
   background: #452611; }
 
-#projects {
-  background: #A17B61; }
-  #projects article {
+#gallery {
+  background: #A17B61;
+  padding-left: 10em;
+  padding-right: 10em; }
+  #gallery article {
     margin-top: 3em; }
-    #projects article div {
-      display: inline-block;
-      height: auto;
-      vertical-align: top; }
-      #projects article div h2 {
+    #gallery article div {
+      text-align: left; }
+      #gallery article div h2 {
         font-size: 2.5em;
         margin-bottom: 0.5em; }
 
@@ -67,6 +66,7 @@ img {
     display: inline-block;
     font-size: 1.5em;
     list-style-type: decimal;
+    margin-left: 1em;
     text-align: left; }
 
 #contact {
