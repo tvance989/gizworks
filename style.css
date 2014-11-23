@@ -1,5 +1,6 @@
 body {
-  font-family: "Cabin", sans-serif; }
+  font-family: "Cabin", sans-serif;
+  text-align: center; }
 
 nav {
   background: #2A1303;
@@ -22,6 +23,10 @@ h1 {
   font-size: 3em;
   margin-bottom: 0.5em; }
 
+p {
+  font-size: 1.5em;
+  margin-bottom: 0.5em; }
+
 img {
   margin-right: 1em;
   max-height: 600px; }
@@ -35,9 +40,11 @@ img {
 
 #home {
   background: #6B4F3B; }
-
-#home img {
-  float: left; }
+  #home h1 {
+    display: inline-block;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    vertical-align: top; }
 
 #about {
   background: #452611; }
@@ -46,19 +53,26 @@ img {
   background: #A17B61; }
   #projects article {
     margin-top: 3em; }
-    #projects article h2 {
-      font-size: 2.5em;
-      margin-bottom: 0.5em; }
-    #projects article p {
-      font-size: 1.5em; }
-  #projects img {
-    float: left; }
+    #projects article div {
+      display: inline-block;
+      height: auto;
+      vertical-align: top; }
+      #projects article div h2 {
+        font-size: 2.5em;
+        margin-bottom: 0.5em; }
 
 #order {
   background: #6B4F3B; }
+  #order ol {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: decimal;
+    text-align: left; }
 
 #contact {
   background: #2A1303;
   color: white; }
+  #contact a {
+    color: inherit; }
 
 /*# sourceMappingURL=style.css.map */

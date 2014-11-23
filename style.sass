@@ -7,6 +7,7 @@ $brown4: #A17B61
 
 body
     font-family: 'Cabin', sans-serif
+    text-align: center
 
 nav
     background: $brown1
@@ -29,6 +30,10 @@ h1
     font-size: 3em
     margin-bottom: 0.5em
 
+p
+    font-size: 1.5em
+    margin-bottom: 0.5em
+
 img
     margin-right: 1em
     max-height: 600px
@@ -42,9 +47,11 @@ img
 
 #home
     background: $brown3
-
-#home img
-    float: left
+    h1
+        display: inline-block
+        font-size: 3em
+        margin-bottom: 0.5em
+        vertical-align: top
 
 #about
     background: $brown2
@@ -53,17 +60,26 @@ img
     background: $brown4
     article
         margin-top: 3em
-        h2
-            font-size: 2.5em
-            margin-bottom: 0.5em
-        p
-            font-size: 1.5em
-    img
-        float: left
+        img
+            // float: left
+        div
+            display: inline-block
+            height: auto
+            vertical-align: top
+            h2
+                font-size: 2.5em
+                margin-bottom: 0.5em
 
 #order
     background: $brown3
+    ol
+        display: inline-block
+        font-size: 1.5em
+        list-style-type: decimal
+        text-align: left
 
 #contact
     background: $brown1
     color: white
+    a
+        color: inherit
