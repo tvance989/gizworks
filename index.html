@@ -2,96 +2,13 @@
 <html>
 <head>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="reset.css">
-    <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <style>
-        body {
-            font-family: 'Cabin', sans-serif;
-        }
-
-        nav {
-            background: #8B6D54;
-            font-size: 1.5em;
-            left: 0;
-            padding: 0.5em;
-            position: fixed;
-            right: 0;
-            top: 0;
-        }
-        nav ul {
-        }
-        nav ul li { display: inline; }
-
-        section {
-            padding: 2em;
-        }
-        h1 {
-            font-size: 2.5em;
-        }
-        h2 {
-            font-size: 1.5em;
-        }
-
-        img {
-            max-height: 400px;
-        }
-
-        .clear:after {
-            content: " ";
-            display: block;
-            height: 0;
-            clear: both;
-            visibility: hidden;
-        }
-
-        #home {
-            background: #5F452F;
-        }
-        #home img {
-            float: left;
-        }
-
-        #about {
-            background: #8B6D54;
-        }
-
-        #projects {
-            background: #5F452F;
-        }
-        #projects article {
-            margin-top: 1em;
-        }
-        #projects img {
-            float: left;
-        }
-
-        #order {
-            background: #361F0C;
-        }
-
-        #contact {
-            background: #8B6D54;
-        }
-    </style>
-
-    <script>
-        $(function(){
-            var navOffset = $("nav").outerHeight();
-
-            $("#home").css("margin-top", navOffset);
-
-            $("nav ul li").click(function(){;
-                var top = $("#"+$(this).data("target")).offset().top - navOffset;
-                $("html, body").animate({
-                    scrollTop: top
-                });
-            });
-        });
-    </script>
-
     <nav>
         <ul>
             <li data-target="home">Home</li>
@@ -108,7 +25,7 @@
     </section>
 
     <section id="about">
-        <h1>Vance</h1>
+        <h1>I make stuff.</h1>
     </section>
 
     <section id="projects">
