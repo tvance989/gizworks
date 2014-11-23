@@ -1,1 +1,68 @@
-test
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <style>
+        section {
+            height: 500px;
+        }
+    </style>
+
+    <script>
+        $(function(){
+            $("nav ul li").click(function(){
+                var top = $("#"+$(this).data("target")).offset().top;
+                $("html, body").animate({
+                    scrollTop: top
+                });
+            });
+        });
+    </script>
+
+    <nav>
+        <ul>
+            <li data-target="home">Home</li>
+            <li data-target="about">About</li>
+            <li data-target="projects">Projects</li>
+            <li data-target="order">Order</li>
+            <li data-target="contact">Contact</li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1>I'm Hunter</h1>
+    </section>
+
+    <section id="about">
+        <h1>Vance</h1>
+    </section>
+
+    <section id="projects">
+        <h1>Projects</h1>
+        <article>
+            <h2>Bench</h2>
+        </article>
+
+        <article>
+            <h2>Desk</h2>
+        </article>
+
+        <article>
+            <h2>Table</h2>
+        </article>
+    </section>
+
+    <section id="order">
+        <h1>Order</h1>
+    </section>
+
+    <section id="contact">
+        <h1>Contact Me</h1>
+    </section>
+</body>
+
+</html>
