@@ -1,11 +1,11 @@
-$(function(){
-    var navOffset = $("nav").outerHeight();
+jQuery(function(){
+    var navOffset = jQuery("nav").outerHeight();
 
-    $("#home").css("margin-top", navOffset);
+    jQuery("#home").css("margin-top", navOffset);
 
-    $("nav ul li").click(function(){;
-        var top = $("#"+$(this).data("target")).offset().top - navOffset;
-        $("html, body").animate({
+    jQuery("nav ul li").click(function(){;
+        var top = jQuery("#"+jQuery(this).data("target")).offset().top - navOffset;
+        jQuery("html, body").animate({
             scrollTop: top
         });
     });
