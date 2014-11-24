@@ -1,4 +1,3 @@
-@import url(reset.css);
 body {
   font-family: "Cabin", sans-serif;
   text-align: center; }
@@ -44,7 +43,8 @@ i {
   visibility: hidden; }
 
 #home {
-  background: #6B4F3B; }
+  background: #6B4F3B;
+  text-align: left; }
 
 #about {
   background: #452611; }
