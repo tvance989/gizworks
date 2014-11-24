@@ -68,7 +68,7 @@ i {
     display: inline-block;
     font-size: 1.5em;
     list-style-type: decimal;
-    margin-left: 1em;
+    margin-left: 1.5em;
     text-align: left; }
 
 #contact {
@@ -96,6 +96,7 @@ i {
       font-size: 2.25em; } }
 @media screen and (max-width: 600px) {
   nav {
+    font-size: 1.25em;
     padding: 0.5em 0;
     position: relative; }
     nav ul li {
@@ -105,7 +106,7 @@ i {
     padding: 1.5em 0; }
 
   h1 {
-    font-size: 2em;
+    font-size: 1.75em;
     margin-bottom: 0.5em; }
 
   img {
@@ -119,7 +120,11 @@ i {
     margin-bottom: 0.5em; }
 
   #home h1 {
-    margin-top: 0.5em; }
+    margin-top: 0.5em;
+    text-align: center; }
+
+  #about {
+    text-align: left; }
 
   #gallery {
     padding-left: 0;
@@ -129,7 +134,7 @@ i {
       #gallery article div {
         text-align: center; }
         #gallery article div h2 {
-          font-size: 2em;
+          font-size: 1.75em;
           margin-bottom: 0.5em; }
         #gallery article div p {
           text-align: left; }
