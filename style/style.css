@@ -1,3 +1,4 @@
+@import url(reset.css);
 body {
   font-family: "Cabin", sans-serif;
   text-align: center; }
@@ -55,6 +56,7 @@ i {
   #gallery article {
     margin-top: 3em; }
     #gallery article div {
+      padding-top: 0.5em;
       text-align: left; }
       #gallery article div h2 {
         font-size: 2.5em;
@@ -74,5 +76,71 @@ i {
   color: white; }
   #contact a {
     color: inherit; }
+
+@media screen and (max-width: 1100px) {
+  section {
+    padding: 2em; }
+
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em; }
+
+  img {
+    float: left;
+    margin-right: 1em; }
+
+  #gallery {
+    padding-left: 2em;
+    padding-right: 2em; }
+    #gallery article div h2 {
+      font-size: 2.25em; } }
+@media screen and (max-width: 600px) {
+  nav {
+    padding: 0.5em 0;
+    position: relative; }
+    nav ul li {
+      margin-left: 0; }
+
+  section {
+    padding: 1.5em 0; }
+
+  h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em; }
+
+  img {
+    float: none;
+    margin-right: 0;
+    max-height: none;
+    width: 100%; }
+
+  p {
+    font-size: 1.25em;
+    margin-bottom: 0.5em; }
+
+  #home h1 {
+    margin-top: 0.5em; }
+
+  #gallery {
+    padding-left: 0;
+    padding-right: 0; }
+    #gallery article {
+      margin-top: 2.5em; }
+      #gallery article div {
+        text-align: center; }
+        #gallery article div h2 {
+          font-size: 2em;
+          margin-bottom: 0.5em; }
+        #gallery article div p {
+          text-align: left; }
+
+  #order p {
+    text-align: left; }
+  #order ol {
+    display: block;
+    font-size: 1.25em; }
+
+  #contact p {
+    font-size: 1.25em; } }
 
 /*# sourceMappingURL=style.css.map */

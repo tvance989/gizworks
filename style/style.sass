@@ -1,83 +1,11 @@
 // sass --watch style.sass:style.css
 
-$brown1: #2A1303
-$brown2: #452611
-$brown3: #6B4F3B
-$brown4: #A17B61
+@import reset.css
 
-body
-    font-family: 'Cabin', sans-serif
-    text-align: center
+@import large
 
-nav
-    background: $brown1
-    color: white
-    font-size: 1.5em
-    left: 0
-    padding: 0.5em
-    position: fixed
-    right: 0
-    top: 0
-    ul li
-        cursor: pointer
-        display: inline
-        margin-left: 1em
+@media screen and (max-width: 1100px)
+    @import medium
 
-section
-    padding: 3em
-
-h1
-    font-size: 3em
-    margin-bottom: 0.5em
-
-img
-    float: left
-    margin-right: 3em
-    max-height: 600px
-
-p
-    font-size: 1.5em
-    margin-bottom: 0.5em
-
-i
-    font-style: italic
-
-.clear:after
-    content: "."
-    display: block
-    height: 0
-    clear: both
-    visibility: hidden
-
-#home
-    background: $brown3
-
-#about
-    background: $brown2
-
-#gallery
-    background: $brown4
-    padding-left: 10em
-    padding-right: 10em
-    article
-        margin-top: 3em
-        div
-            text-align: left
-            h2
-                font-size: 2.5em
-                margin-bottom: 0.5em
-
-#order
-    background: $brown3
-    ol
-        display: inline-block
-        font-size: 1.5em
-        list-style-type: decimal
-        margin-left: 1em
-        text-align: left
-
-#contact
-    background: $brown1
-    color: white
-    a
-        color: inherit
+@media screen and (max-width: 600px)
+    @import small
