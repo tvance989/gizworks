@@ -24,6 +24,9 @@ h1 {
   font-size: 3em;
   margin-bottom: 0.5em; }
 
+h2 {
+  font-size: 2.5em; }
+
 img {
   float: left;
   margin-right: 3em;
@@ -60,7 +63,6 @@ i {
       padding-top: 0.5em;
       text-align: left; }
       #gallery article div h2 {
-        font-size: 2.5em;
         margin-bottom: 0.5em; }
 
 #order {
@@ -109,6 +111,9 @@ i {
     font-size: 1.75em;
     margin-bottom: 0.5em; }
 
+  h2 {
+    font-size: 1.75em; }
+
   img {
     float: none;
     margin-right: 0;
@@ -131,11 +136,9 @@ i {
       #gallery article div {
         text-align: center; }
         #gallery article div h2 {
-          font-size: 1.75em;
           margin-bottom: 0.5em; }
 
   #order ol {
-    display: block;
     font-size: 1.25em; }
 
   #contact p {
