@@ -133,11 +133,7 @@ i {
         #gallery article div h2 {
           font-size: 1.75em;
           margin-bottom: 0.5em; }
-        #gallery article div p {
-          text-align: left; }
 
-  #order p {
-    text-align: left; }
   #order ol {
     display: block;
     font-size: 1.25em; }
