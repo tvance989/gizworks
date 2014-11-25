@@ -1,9 +1,10 @@
 body {
-  font-family: "Cabin", sans-serif;
+  background-image: url(../images/dark_wood/dark_wood.png);
+  font-family: "Cabin", "Trebuchet MS", Geneva, sans-serif;
   text-align: center; }
 
 nav {
-  background: #2A1303;
+  background-image: url(../images/dark_wood/dark_wood.png);
   color: white;
   font-size: 1.5em;
   left: 0;
@@ -43,14 +44,14 @@ i {
   visibility: hidden; }
 
 #home {
-  background: #6B4F3B;
+  background-image: url(../images/purty_wood/purty_wood.png);
   text-align: left; }
 
 #about {
-  background: #452611; }
+  background-image: url(../images/wood_textures/wood1.jpg); }
 
 #gallery {
-  background: #A17B61;
+  background-image: url(../images/retina_wood/retina_wood.png);
   padding-left: 10em;
   padding-right: 10em; }
   #gallery article {
@@ -63,7 +64,7 @@ i {
         margin-bottom: 0.5em; }
 
 #order {
-  background: #6B4F3B; }
+  background-image: url(../images/wood_textures/wood1.jpg); }
   #order ol {
     display: inline-block;
     font-size: 1.5em;
@@ -72,7 +73,6 @@ i {
     text-align: left; }
 
 #contact {
-  background: #2A1303;
   color: white; }
   #contact a {
     color: inherit; }
